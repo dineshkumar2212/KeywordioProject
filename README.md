@@ -31,4 +31,7 @@ after that type "python manage.py migrate" to apply the changes in the database
 
 13.To go back to homepage type "localhost/" in the browser
 
-14.If you want more clarity please refer Screenshot folder -->
+14.If you want more clarity please refer Screenshot folder 
+
+15.If it asks for any Password in Admin page username:admin; password:admin
+-->
