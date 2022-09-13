@@ -6,7 +6,7 @@ Read_Me:
 
 2.Create database in your local machine (Mysql Workbench) refer "settings.py" in that check the "database" list name orelse create any name you want and use that database and add it in "settings.py" file
 
-3.To migrate the models created in model.py type "python manage.py makemigrations" to check, which changes are going to happen,
+3.All modules are in "newProject Folder".To migrate the models created in model.py type "python manage.py makemigrations" to check, which changes are going to happen,
 after that type "python manage.py migrate" to apply the changes in the database
 
 3.To create adminuser type "python manage.py createsuperuser", then enter the username,email,password credentials and press "Y"
