@@ -1,5 +1,3 @@
-<!-- # KeywordioProject
-
 Read_Me:
 
 1.Requirements: Install python,mysql,django,restframework on your machine and IDE vscode is preferred
@@ -31,4 +29,4 @@ after that type "python manage.py migrate" to apply the changes in the database
 
 13.To go back to homepage type "localhost/" in the browser
 
-14.If you want more clarity please refer Screenshot folder -->
+14.If you want more clarity please refer Screenshot folder

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% comment %} <title>Home Page</title> {% endcomment %}
+
+<html>
+    {%load static%}
+    <title>Home Page</title>
+    <link rel="stylesheet" href= "{%static 'css/style.css'%}"/>
+    <body>
+        <div class="entireContainer">
+            <div class="headerDiv">
+                <span>Welcome!</span>
+            </div>
+            <div class="contentDiv">
+                <div class="linkDiv">
+                    <div class="adminDiv">
+                        <span>Click on this link to open Admin Page</span>
+                        <a href="/admin">Admin</a>
+                    </div>
+                    <div class="studentDiv">
+                        <span>Click on this link to open Student View</span>
+                        <a href="/student">Student View</a>
+                    </div>
+                </div>
+                <div class="dummyDiv"></div>
+            </div>
+        </div>
+    </body>
+</html>
