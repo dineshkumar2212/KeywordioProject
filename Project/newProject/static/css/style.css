@@ -1,0 +1,64 @@
+*{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+    margin:0;
+}
+.entireContainer{
+    height:100%;
+    width: 100%;
+}
+.headerDiv{
+    height:10%;
+    width:100%;
+    color:white;
+    background-color: #00cdfe;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.contentDiv{
+    height:90%;
+    width:100%;
+    justify-content:flex-start;
+}
+.linkDiv{
+    height:20%;
+    width: 100%;
+}
+
+.adminDiv{
+    height: 50%;
+    flex-direction: row;
+    width: 100%;
+}
+.adminDiv>span{
+    font-weight: bolder;
+    margin:0 10px 0 0;
+}
+.studentDiv{
+    height:50%;
+    flex-direction: row;
+    width: 100%;
+}
+.studentDiv>span{
+    font-weight: bolder;
+    margin:0 10px 0 0;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color:#00cdfe;
+}
+title{
+    display: none;
+}
